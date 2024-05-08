@@ -1,0 +1,6 @@
+{
+    tokenId: "4",
+    name: "Xiaomi 14",
+    image: "https://specificationsplus.com/wp-content/uploads/2022/05/Xiaomi-14-Specifications-Plus.jpg",
+    description: "Xiaomi 14 is a new smartphone by Xiaomi, and 14 price is $1,000, on this page you can find the best and most updated price of 14 with detailed specifications and features.",
+}

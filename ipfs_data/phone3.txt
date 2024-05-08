@@ -1,0 +1,6 @@
+{
+    tokenId: "3",
+    name: "Samsung Galaxy S23 Ultra",
+    image: "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2023/02/samsung-galaxy-s23-ultra-review.jpg",
+    description: "The Samsung Galaxy S23 Ultra is the latest flagship phone from Samsung. It features a 6.8-inch QHD+ Dynamic AMOLED display with a 120Hz refresh rate, a Snapdragon 8 Gen 2 processor, up to 16GB of RAM, up to 1TB of storage, a 108MP main camera, a 12MP ultra-wide camera, and a 12MP telephoto camera with 3x optical zoom. It also has a 5000mAh battery, 45W fast charging, and runs Android 13 with One UI 5.0.",
+}

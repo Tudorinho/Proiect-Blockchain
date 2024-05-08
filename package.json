@@ -1,0 +1,11 @@
+{
+    "devDependencies": {
+        "@nomicfoundation/edr-linux-x64-gnu": "^0.3.5",
+        "@nomiclabs/hardhat-ethers": "^2.2.3",
+        "@openzeppelin/contracts": "^5.0.2",
+        "chai": "^4.4.1",
+        "dotenv": "^10.0.0",
+        "hardhat": "^2.22.1",
+        "mocha": "^10.4.0"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    tokenId: "1",
+    name: "Iphone 15",
+    image: "https://img.jabko.ua/image/cache/catalog/111/iph-15-pr0full.jpg",
+    description: "The iPhone 15 is the latest smartphone from Apple. It features a 6.1-inch Super Retina XDR display, a powerful A16 Bionic chip, and a dual-camera system with Night mode. With 5G support, you can download movies on the go and stream high-quality video. The iPhone 15 is available in three storage capacities: 64GB, 128GB, and 256GB.",
+}
