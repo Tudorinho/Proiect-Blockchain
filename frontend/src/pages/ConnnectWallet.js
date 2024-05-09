@@ -8,7 +8,7 @@ function ConnectWallet() {
     if (window.ethereum) {
       try {
         await window.ethereum.request({ method: 'eth_requestAccounts' });
-        navigate('/available-cars');
+        navigate('/available-phones');
       } catch (error) {
         console.error("Failed to connect wallet", error);
       }

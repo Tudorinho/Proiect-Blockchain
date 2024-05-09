@@ -1,24 +1,24 @@
 import { useEffect } from "react";
 import { useUser } from "../contexts/UserContext";
-import { useMyCars } from "../hooks/useMyCars";
+import { useMyPhones } from "../hooks/useMyPhones";
 
-const MyCars = () => {
+const MyPhones = () => {
     const userAddress = useUser();
-    const { cars, loading, error } = useMyCars(userAddress);
-    console.log("UserAddress from MyCars: ", userAddress);
+    const { phones, loading, error } = useMyPhones(userAddress);
+    console.log("UserAddress from MyPhones: ", userAddress);
 
     return ( 
         <div>
             {userAddress ? (
                 <div>
-                    <h1>My Cars</h1>
+                    <h1>My Phones</h1>
                     <p>Address: {userAddress}</p>
                     {loading && <div>Loading...</div>}
                     {error && <div>Error: {error}</div>}
                     <ul>
-                        {cars.map(car => (
-                            <li key={car.tokenId}>
-                                Token ID: {car.tokenId}, Price: {car.price} WEI
+                        {phones.map(phone => (
+                            <li key={phone.tokenId}>
+                                Token ID: {phone.tokenId}, Price: {phone.price} WEI
                             </li>
                         ))}
                     </ul>
@@ -30,4 +30,4 @@ const MyCars = () => {
      );
 }
  
-export default MyCars;
+export default MyPhones;

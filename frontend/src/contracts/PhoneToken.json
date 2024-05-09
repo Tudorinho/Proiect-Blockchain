@@ -1,8 +1,8 @@
 {
   "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
   "_format": "hh-sol-artifact-1",
-  "contractName": "CarToken",
-  "sourceName": "contracts/CarToken.sol",
+  "contractName": "PhoneToken",
+  "sourceName": "contracts/PhoneToken.sol",
   "abi": [
     {
       "inputs": [

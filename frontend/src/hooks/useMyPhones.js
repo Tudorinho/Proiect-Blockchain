@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
-import { carMarketplaceContract, carTokenContract } from "../ethersConnect"; 
+import { phoneMarketplaceContract, phoneTokenContract } from "../ethersConnect"; 
 
-export function useMyCars(address) {
-  const [cars, setCars] = useState([]);
+export function useMyPhones(address) {
+  const [phones, setPhones] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchCars = async () => {
+    const fetchPhones = async () => {
         if (!address) {
-            setCars([]);
-            setError("User address is null, unable to fetch cars");
+            setPhones([]);
+            setError("User address is null, unable to fetch phones");
             setLoading(false);
             return;
         }
@@ -18,8 +18,8 @@ export function useMyCars(address) {
       setLoading(true);
 
       try {
-        console.log("Fetching cars owned by: ", address);
-        const response = await carMarketplaceContract.getCarsOwnedBy(address);
+        console.log("Fetching phones owned by: ", address);
+        const response = await phoneMarketplaceContract.getPhonesOwnedBy(address);
         console.log("Response: ", response);
         
         const tokenIds = response.map((tokenId) => tokenId.toString());
@@ -28,27 +28,27 @@ export function useMyCars(address) {
         
         // call  function tokenURI(uint256 tokenId) public view override(ERC721, ERC721URIStorage) returns (string memory)
         const tokenURIs = await Promise.all(
-          tokenIds.map((tokenId) => carTokenContract.tokenURI(tokenId))
+          tokenIds.map((tokenId) => phoneTokenContract.tokenURI(tokenId))
         );
 
         console.log("TokenURIs: ", tokenURIs);
-        setCars(
-          tokenIds.map((car, index) => ({
-            tokenId: car.toString(),
+        setPhones(
+          tokenIds.map((phone, index) => ({
+            tokenId: phone.toString(),
             tokenURI: tokenURIs[index],
           }))
         );
         setError(null);
       } catch (err) {
-        setError("Failed to fetch cars: " + err.message);
+        setError("Failed to fetch phones: " + err.message);
         console.error(err);
       }
       setLoading(false);
     };
 
-      fetchCars();
+      fetchPhones();
     
   }, [address]);
 
-  return { cars, loading, error };
+  return { phones, loading, error };
 }

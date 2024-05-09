@@ -1,20 +1,20 @@
 import { ethers } from 'ethers';
-import CarToken from './contracts/CarToken.json';
-import CarMarketplace from './contracts/CarMarketplace.json';
+import PhoneToken from './contracts/PhoneToken.json';
+import PhoneMarketplace from './contracts/PhoneMarketplace.json';
 
 const provider = new ethers.BrowserProvider(window.ethereum);
 const signer = await provider.getSigner();
 
-const carTokenContract = new ethers.Contract(
-  CarToken.address,
-  CarToken.abi,
+const phoneTokenContract = new ethers.Contract(
+  PhoneToken.address,
+  PhoneToken.abi,
   signer
 );
 
-const carMarketplaceContract = new ethers.Contract(
-  CarMarketplace.address,
-  CarMarketplace.abi,
+const phoneMarketplaceContract = new ethers.Contract(
+  PhoneMarketplace.address,
+  PhoneMarketplace.abi,
   signer
 );
 
-export { carTokenContract, carMarketplaceContract };
+export { phoneTokenContract, phoneMarketplaceContract };

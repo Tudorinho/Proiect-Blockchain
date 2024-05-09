@@ -1,14 +1,14 @@
 {
   "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
   "_format": "hh-sol-artifact-1",
-  "contractName": "CarMarketplace",
-  "sourceName": "contracts/CarMarketplace.sol",
+  "contractName": "PhoneMarketplace",
+  "sourceName": "contracts/PhoneMarketplace.sol",
   "abi": [
     {
       "inputs": [
         {
           "internalType": "address",
-          "name": "_carTokenAddress",
+          "name": "_phoneTokenAddress",
           "type": "address"
         }
       ],
@@ -42,7 +42,7 @@
           "type": "uint256"
         }
       ],
-      "name": "CarListed",
+      "name": "PhoneListed",
       "type": "event"
     },
     {
@@ -73,7 +73,7 @@
           "type": "uint256"
         }
       ],
-      "name": "CarSold",
+      "name": "PhoneSold",
       "type": "event"
     },
     {
@@ -103,7 +103,7 @@
           "type": "uint256"
         }
       ],
-      "name": "buyCar",
+      "name": "buyPhone",
       "outputs": [],
       "stateMutability": "payable",
       "type": "function"
@@ -123,10 +123,10 @@
     },
     {
       "inputs": [],
-      "name": "carToken",
+      "name": "PhoneToken",
       "outputs": [
         {
-          "internalType": "contract CarToken",
+          "internalType": "contract PhoneToken",
           "name": "",
           "type": "address"
         }
@@ -161,7 +161,7 @@
               "type": "bool"
             }
           ],
-          "internalType": "struct CarMarketplace.Listing[]",
+          "internalType": "struct PhoneMarketplace.Listing[]",
           "name": "",
           "type": "tuple[]"
         }
@@ -177,7 +177,7 @@
           "type": "address"
         }
       ],
-      "name": "getCarsOwnedBy",
+      "name": "getPhonesOwnedBy",
       "outputs": [
         {
           "internalType": "uint256[]",
@@ -221,7 +221,7 @@
               "type": "bool"
             }
           ],
-          "internalType": "struct CarMarketplace.Listing",
+          "internalType": "struct PhoneMarketplace.Listing",
           "name": "",
           "type": "tuple"
         }
@@ -261,7 +261,7 @@
           "type": "uint256"
         }
       ],
-      "name": "listCarForSale",
+      "name": "listPhoneForSale",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
