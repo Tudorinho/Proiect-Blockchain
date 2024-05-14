@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { phoneMarketplaceContract } from '../ethersConnect';  // Adjust path as necessary
-import { phoneNftContract } from '../ethersConnect';
 
 export function useAvailablePhones() {
     const [phones, setPhones] = useState([]);
@@ -27,7 +26,7 @@ export function useAvailablePhones() {
             setLoading(false);
         };
 
-        // fetchPhones();
+        fetchPhones();
     }, []);  
 
     return { phones, loading, error };

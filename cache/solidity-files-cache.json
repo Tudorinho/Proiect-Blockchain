@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/tudor10/Proiect-Blockchain/contracts/PhoneCoin.sol": {
-      "lastModificationDate": 1715187379740,
+    "/home/kanyjmk/Proiect-Blockchain/contracts/PhoneCoin.sol": {
+      "lastModificationDate": 1715679733240,
       "contentHash": "ab7b552b27379babaf68ecacf5159d86",
       "sourceName": "contracts/PhoneCoin.sol",
       "solcConfig": {
@@ -40,8 +40,8 @@
         "PhoneCoin"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1715189103560,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
@@ -78,8 +78,8 @@
         "Ownable"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1715189103460,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "c6375ef25e84c90b3d15f9ec4eef218f",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
@@ -119,8 +119,8 @@
         "ERC20"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1715189103440,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -155,8 +155,8 @@
         "Context"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
-      "lastModificationDate": 1715189103450,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "4aefc698f77ecbace7f401257dfe182d",
       "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
       "solcConfig": {
@@ -193,8 +193,8 @@
         "IERC721Errors"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1715189103540,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "5517c8678c18eb1a8ba58810e7ca39ca",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
@@ -229,8 +229,8 @@
         "IERC20"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1715189103540,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "4c02fa6f7ae7b6c289cef80424f0c875",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
@@ -267,8 +267,8 @@
         "IERC20Metadata"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/contracts/PhoneMarketplace.sol": {
-      "lastModificationDate": 1715187379740,
+    "/home/kanyjmk/Proiect-Blockchain/contracts/PhoneMarketplace.sol": {
+      "lastModificationDate": 1715679733240,
       "contentHash": "e655c0495369598bd3aae2814c98fa62",
       "sourceName": "contracts/PhoneMarketplace.sol",
       "solcConfig": {
@@ -308,8 +308,8 @@
         "PhoneMarket"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/contracts/PhoneNft.sol": {
-      "lastModificationDate": 1715187379740,
+    "/home/kanyjmk/Proiect-Blockchain/contracts/PhoneNft.sol": {
+      "lastModificationDate": 1715679733240,
       "contentHash": "ba6e5ca90a9be6477d0cab448427000b",
       "sourceName": "contracts/PhoneNft.sol",
       "solcConfig": {
@@ -349,8 +349,8 @@
         "PhoneNft"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1715189103550,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "fc8a9841f4bdd6329c26a00d5e75f4b3",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
@@ -385,8 +385,8 @@
         "IERC721Receiver"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1715189103480,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "1e64e2ad597dc5b2dae11346502baad4",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
@@ -429,48 +429,8 @@
         "ERC721"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol": {
-      "lastModificationDate": 1715189103480,
-      "contentHash": "6f49fe93ad40dc0bd4cac0cc124d0415",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 10000
-          },
-          "evmVersion": "paris",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../ERC721.sol",
-        "./IERC721Enumerable.sol",
-        "../../../utils/introspection/ERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "ERC721Enumerable"
-      ]
-    },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
-      "lastModificationDate": 1715189103480,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "50d770b698931f015309e77a750f54f6",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
@@ -510,8 +470,48 @@
         "ERC721URIStorage"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1715189103580,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol": {
+      "lastModificationDate": 1715679733600,
+      "contentHash": "6f49fe93ad40dc0bd4cac0cc124d0415",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol",
+        "./IERC721Enumerable.sol",
+        "../../../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC721Enumerable"
+      ]
+    },
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "ba57ff4ddf1d9cae9d2009792795b7f6",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -549,8 +549,8 @@
         "Strings"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1715189103460,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1715679733610,
       "contentHash": "6a55c353946e471d9792965d06208295",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
@@ -587,8 +587,8 @@
         "ERC165"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1715189103550,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "5df8fdb527e563085847cad29e3c5f2e",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
@@ -625,8 +625,8 @@
         "IERC721"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1715189103550,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "12c206f185cb951213799561fdcaa40d",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
@@ -663,8 +663,8 @@
         "IERC721Metadata"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
-      "lastModificationDate": 1715189103560,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
+      "lastModificationDate": 1715679733610,
       "contentHash": "718fa8ba0ff269c92e364c1429d9de57",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
@@ -699,8 +699,8 @@
         "Math"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
-      "lastModificationDate": 1715189103570,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
+      "lastModificationDate": 1715679733610,
       "contentHash": "b6c6bdc7aaca4fe5b680760a72e09d3e",
       "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
       "solcConfig": {
@@ -735,8 +735,8 @@
         "SignedMath"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1715189103530,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1715679733610,
       "contentHash": "de0163561b417b800d01749cbbe2147e",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -771,10 +771,10 @@
         "IERC165"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol": {
-      "lastModificationDate": 1715189103550,
-      "contentHash": "3fdc14aab706458ae99314f6f7f529a2",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/interfaces/IERC165.sol": {
+      "lastModificationDate": 1715679733600,
+      "contentHash": "f808b485ee0cdc6768ee8385ae5f9a2a",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -800,17 +800,15 @@
         }
       },
       "imports": [
-        "../IERC721.sol"
+        "../utils/introspection/IERC165.sol"
       ],
       "versionPragmas": [
         "^0.8.20"
       ],
-      "artifacts": [
-        "IERC721Enumerable"
-      ]
+      "artifacts": []
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/interfaces/IERC4906.sol": {
-      "lastModificationDate": 1715189103550,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/interfaces/IERC4906.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "7f130e0d70179d683e9b9df0dda38a51",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC4906.sol",
       "solcConfig": {
@@ -848,44 +846,8 @@
         "IERC4906"
       ]
     },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/interfaces/IERC165.sol": {
-      "lastModificationDate": 1715189103530,
-      "contentHash": "f808b485ee0cdc6768ee8385ae5f9a2a",
-      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 10000
-          },
-          "evmVersion": "paris",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": []
-    },
-    "/home/tudor10/Proiect-Blockchain/node_modules/@openzeppelin/contracts/interfaces/IERC721.sol": {
-      "lastModificationDate": 1715189103550,
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/interfaces/IERC721.sol": {
+      "lastModificationDate": 1715679733600,
       "contentHash": "d8d23fc2f55ed934d1a1b91c9afd8526",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC721.sol",
       "solcConfig": {
@@ -919,6 +881,44 @@
         "^0.8.20"
       ],
       "artifacts": []
+    },
+    "/home/kanyjmk/Proiect-Blockchain/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol": {
+      "lastModificationDate": 1715679733600,
+      "contentHash": "3fdc14aab706458ae99314f6f7f529a2",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC721Enumerable"
+      ]
     }
   }
 }

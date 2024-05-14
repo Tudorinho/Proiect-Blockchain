@@ -116,6 +116,14 @@ async function deploy() {
     tx = await phoneMarket.connect(user3).buyPhone(2);
     await tx.wait();
 
+    // Approving the market to get the phone back
+    tx = await phoneNft.connect(user3).approve(phoneMarket.address, 2);
+    await tx.wait();
+
+    // Putting the phone back on the market
+    tx = await phoneMarket.connect(user3).listPhone(2, ethers.utils.parseEther("15"));
+    await tx.wait();
+
     // Checking user1's phones
     user1Phones = await phoneNft.connect(user1).getPhonesOwned(user1.address);
     console.log("User1 phones:", user1Phones);

@@ -24,4 +24,4 @@ const phoneCoinContract = new ethers.Contract(
   signer
 );
 
-export { phoneNftContract, phoneMarketplaceContract, phoneCoinContract };
+export { phoneNftContract, phoneMarketplaceContract, phoneCoinContract, signer as userAddress };
