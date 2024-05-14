@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { phoneMarketplaceContract, phoneTokenContract } from "../ethersConnect"; 
+import { phoneMarketplaceContract, phoneNftContract } from "../ethersConnect"; 
 
 export function useMyPhones(address) {
   const [phones, setPhones] = useState([]);
@@ -28,7 +28,7 @@ export function useMyPhones(address) {
         
         // call  function tokenURI(uint256 tokenId) public view override(ERC721, ERC721URIStorage) returns (string memory)
         const tokenURIs = await Promise.all(
-          tokenIds.map((tokenId) => phoneTokenContract.tokenURI(tokenId))
+          tokenIds.map((tokenId) => phoneNftContract.tokenURI(tokenId))
         );
 
         console.log("TokenURIs: ", tokenURIs);

@@ -1,13 +1,14 @@
 import { ethers } from 'ethers';
-import PhoneToken from './contracts/PhoneToken.json';
+import PhoneNft from './contracts/PhoneNft.json';
 import PhoneMarketplace from './contracts/PhoneMarketplace.json';
+import PhoneCoin from './contracts/PhoneCoin.json'
 
 const provider = new ethers.BrowserProvider(window.ethereum);
 const signer = await provider.getSigner();
 
-const phoneTokenContract = new ethers.Contract(
-  PhoneToken.address,
-  PhoneToken.abi,
+const phoneNftContract = new ethers.Contract(
+  PhoneNft.address,
+  PhoneNft.abi,
   signer
 );
 
@@ -17,4 +18,10 @@ const phoneMarketplaceContract = new ethers.Contract(
   signer
 );
 
-export { phoneTokenContract, phoneMarketplaceContract };
+const phoneCoinContract = new ethers.Contract(
+  PhoneCoin.address,
+  PhoneCoin.abi,
+  signer
+);
+
+export { phoneNftContract, phoneMarketplaceContract, phoneCoinContract };
